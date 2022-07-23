@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>お問合せフォーム|架空の株式会社ダミー</title>
+</head>
+<body>
+    <img src="images/logo-dummy.png" width="240px" height="80px" alt="架空の株式会社ダミー"> <!--画像を設定するにはimgタグ-->
+    <h1>お問い合わせフォーム</h1>
+    <form action="" method="post">
+        <table border=" ">
+            <tr>
+                <th><label for="your_name">お名前</label></th>
+                <td><input type="text" id="your_name" name="your_name"></td>
+            </tr>
+            <tr>
+                <th><label for="your_email">メールアドレス</label></th> <!--なんでメールアドレスにlabel付する？--><!--部品と見做されたところにカーソルが移動するから-->
+                <td><input type="text" id="your_email" name="your_email"></td>
+            </tr>
+            <tr>
+                <th><label for="inquiry">お問い合わせ内容</label></th>
+                <td><textarea id="inquiry" name="inquiry" rows="10" cols="60"></textarea></td>
+            </tr>
+        </table>
+        <p><input type="submit" value="入力確認画面へ"></p>    
+    </form>
+
+    <p>株式会社ダミーに関するお問い合わせは、<a href="privacy/index.html">プライバシーポリシー</a>をご一読の上、下記の入力フォームから送信して下さい。</p> <!--リンクを設定するにはaタグ-->
+    <p>入力確認画面へ</p>
+    <p>&copy; 2016 株式会社ダミー All Rights Reserved.</p>
+</body>
+</html>
